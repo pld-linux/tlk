@@ -17,7 +17,7 @@ guide to how the kernel fits together, how it works; a tour of the
 kernel.
 
 %description -l pl
-Kerenl jest sercem systemu operacyjnego. W tej ksi±¿ce opisano jak
+Kernel jest sercem systemu operacyjnego. W tej ksi±¿ce opisano jak
 dzia³a kernel Linuksa.
 
 %prep
