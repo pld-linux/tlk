@@ -7,7 +7,7 @@ License:	distributable
 Group:		Documentation
 Source0:	http://www.tldp.org/LDP/%{name}.html.tar.gz
 # Source0-md5:	00df6ba5eaa312e45625aae8cad80d76
-URL:		http://www.tldp.org/LDP/%{name}/%{name}.html
+URL:		http://www.tldp.org/LDP/tlk/tlk.html
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
