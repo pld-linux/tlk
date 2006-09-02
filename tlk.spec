@@ -8,6 +8,7 @@ Group:		Documentation
 Source0:	http://www.tldp.org/LDP/%{name}.html.tar.gz
 # Source0-md5:	00df6ba5eaa312e45625aae8cad80d76
 URL:		http://www.tldp.org/LDP/tlk/tlk.html
+Requires:	LDP-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -26,8 +27,7 @@ dzia³a kernel Linuksa.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
-
-cp -ar * $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
+cp -a * $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
