@@ -1,5 +1,5 @@
 Summary:	LDP Linux Kernel
-Summary(pl.UTF-8):   Przewodnik po kernelu
+Summary(pl.UTF-8):	Przewodnik po kernelu
 Name:		tlk
 Version:	0.8_3
 Release:	1
