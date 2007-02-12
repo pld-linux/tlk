@@ -1,5 +1,5 @@
 Summary:	LDP Linux Kernel
-Summary(pl):	Przewodnik po kernelu
+Summary(pl.UTF-8):   Przewodnik po kernelu
 Name:		tlk
 Version:	0.8_3
 Release:	1
@@ -17,9 +17,9 @@ The kernel is at the heart of the operating system. This book is a
 guide to how the kernel fits together, how it works; a tour of the
 kernel.
 
-%description -l pl
-Kernel jest sercem systemu operacyjnego. W tej ksi±¿ce opisano jak
-dzia³a kernel Linuksa.
+%description -l pl.UTF-8
+Kernel jest sercem systemu operacyjnego. W tej ksiÄ…Å¼ce opisano jak
+dziaÅ‚a kernel Linuksa.
 
 %prep
 %setup -q -n %{name}-0.8-3.html
